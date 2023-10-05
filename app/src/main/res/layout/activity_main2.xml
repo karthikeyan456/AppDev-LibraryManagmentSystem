@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.librarymgmtsystem.MainActivity2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70px"
+            android:fontFamily="Comic Sans MS"
+            android:textAlignment="center"
+            android:id="@+id/welcmsg"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Available Books"
+            android:layout_marginTop="300px"
+            android:layout_marginLeft="350px"
+            android:textColor="#fff"
+            android:id="@+id/available"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Books Borrowed"
+            android:layout_marginTop="600px"
+            android:layout_marginLeft="350px"
+            android:textColor="#fff"
+            android:id="@+id/booksborrowed"/>
+        <Button
+            android:layout_width="670px"
+            android:layout_height="wrap_content"
+            android:text="Borrow a new book"
+            android:layout_marginTop="900px"
+            android:layout_marginLeft="350px"
+            android:textColor="#fff"
+            android:id="@+id/borrow"/>
+        <Button
+            android:layout_width="670px"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginTop="1200px"
+            android:layout_marginLeft="350px"
+            android:textColor="#fff"
+            android:id="@+id/logout"/>
+
+
+
+
+
+
+</RelativeLayout>
